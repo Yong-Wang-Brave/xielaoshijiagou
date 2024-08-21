@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="track-gateway" />
+        <module name="track-consumer" />
+        <module name="track-provider" />
+        <module name="track-client" />
+        <module name="track-model" />
+        <module name="track-scheduler" />
+        <module name="track-manager" />
+        <module name="track-core" />
+        <module name="track-domain" />
+        <module name="track-dao" />
+        <module name="track-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="module-common" target="8" />
+      <module name="module-parent" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="module-common" options="-parameters" />
+      <module name="track-client" options="-parameters" />
+      <module name="track-consumer" options="-parameters" />
+      <module name="track-core" options="-parameters" />
+      <module name="track-dao" options="-parameters" />
+      <module name="track-domain" options="-parameters" />
+      <module name="track-gateway" options="-parameters" />
+      <module name="track-manager" options="-parameters" />
+      <module name="track-model" options="-parameters" />
+      <module name="track-provider" options="-parameters" />
+      <module name="track-scheduler" options="-parameters" />
+      <module name="track-service" options="-parameters" />
+      <module name="xielaoshijiagou" options="-parameters" />
+    </option>
+  </component>
+</project>
